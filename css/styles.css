@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #e4b1a5;
+  --secondary-color: #59371c;
+  --tertiary-color: #ebdacc;
+  --quaternary-color: #dd8470;
+  --quinary-color: #8f542e;
+  --senary-clor: #b2784a;
+  --box-shadow: 0 2px 15px var(--quinary-color);
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  margin: 10px 0;
+}
+
+.navbar {
+  box-shadow: var(--box-shadow);
+  padding: 0 50px;
+}
+
+nav .navbar-nav li a {
+  color: var(--secondary-color);
+}
+
+nav .navbar-nav li a:hover {
+  color: var(--tertiary-color);
+}
