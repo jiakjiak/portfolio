@@ -29,3 +29,22 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
   color: var(--tertiary-color);
 }
+
+.underConstruction {
+  position: relative;
+  font-size: 30px;
+}
+
+.underConstruction span {
+  position: relative;
+  display: inline-block;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes flip {
+  0%,
+  50% {
+    transform: rotateY(360deg);
+  }
+}
