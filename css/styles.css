@@ -54,6 +54,7 @@ nav .navbar-nav li a:hover {
   width: 55px;
   height: 55px;
   position: relative;
+  margin-top: -8px !important;
 }
 
 .logo-inner {
