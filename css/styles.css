@@ -12,7 +12,7 @@ body {
   background-color: var(--primary-color);
 }
 
-.navbar-brand img {
+.navbar-brand {
   max-height: 50px;
   margin: 10px 0;
 }
@@ -22,7 +22,8 @@ body {
   padding: 0 50px;
 }
 
-nav .navbar-nav li a {
+nav .navbar-nav li a,
+.logo-text {
   color: var(--secondary-color);
 }
 
@@ -47,4 +48,69 @@ nav .navbar-nav li a:hover {
   50% {
     transform: rotateY(360deg);
   }
+}
+
+.logo-outer {
+  width: 55px;
+  height: 55px;
+  position: relative;
+}
+
+.logo-inner {
+  width: 55px;
+  height: 55px;
+}
+
+.logo-text {
+  font-size: 12px;
+  line-height: 1.1;
+  padding: 25px 0 5px 5px;
+  margin: auto 0;
+}
+
+.logo-outer::before,
+.logo-outer:after,
+.logo-inner::before,
+.logo-inner::after {
+  content: "";
+  position: absolute;
+  height: 20%;
+  width: 20%;
+}
+
+.logo-outer:before {
+  right: 0;
+  border-right: 1.5px solid var(--tertiary-color);
+  border-top: 1.5px solid var(--tertiary-color);
+}
+
+.logo-outer:after {
+  bottom: 0;
+  border-left: 1.5px solid var(--tertiary-color);
+  border-bottom: 1.5px solid var(--tertiary-color);
+}
+
+.logo-inner:before {
+  left: 0;
+  top: 0;
+  border-left: 1.5px solid var(--tertiary-color);
+  border-top: 1.5px solid var(--tertiary-color);
+}
+
+.logo-inner:after {
+  right: 0;
+  bottom: 0;
+  border-right: 1.5px solid var(--tertiary-color);
+  border-bottom: 1.5px solid var(--tertiary-color);
+}
+
+.logo-inner-2:after {
+  content: "";
+  background: var(--secondary-color);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 7px;
 }
