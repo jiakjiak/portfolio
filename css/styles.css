@@ -8,6 +8,10 @@
   --box-shadow: 0 2px 15px var(--quinary-color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary-color);
 }
