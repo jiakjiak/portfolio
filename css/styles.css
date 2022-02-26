@@ -71,6 +71,7 @@ nav .navbar-nav li a:hover {
   line-height: 1.1;
   padding: 25px 0 5px 5px;
   margin: auto 0;
+  font-family: "Old Standard TT", serif;
 }
 
 .logo-outer::before,
