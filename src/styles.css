@@ -4,7 +4,7 @@
   --tertiary-color: #ebdacc;
   --quaternary-color: #dd8470;
   --quinary-color: #8f542e;
-  --senary-clor: #b2784a;
+  --senary-color: #b2784a;
   --box-shadow: 0 2px 15px var(--quinary-color);
 }
 
@@ -119,4 +119,8 @@ nav .navbar-nav li a:hover {
   position: absolute;
   top: 7px;
   right: 7px;
+}
+
+.contact {
+  width: 30%;
 }
