@@ -124,3 +124,7 @@ nav .navbar-nav li a:hover {
 .contact {
   width: 30%;
 }
+
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+}
