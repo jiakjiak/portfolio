@@ -188,28 +188,34 @@
         </div>
       </div>
       <div class="contact" id="contact">
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formspree.io/f/mdobzdyw" method="post">
           <h4>Get in touch!</h4>
           <input
             type="text"
+            name="Sender Name"
             class="form-control mb-1"
             id="senderName"
             placeholder="&#xf007; name"
             style="font-family: verdana, FontAwesome"
+            required
           />
           <input
             type="email"
+            name="Sender Email"
             class="form-control mb-1"
             id="senderEmail"
             placeholder="&#xf0e0; email"
             style="font-family: verdana, FontAwesome"
+            required
           />
           <textarea
+            name="Message"
             class="form-control mb-3"
             id="SenderMessage"
             rows="4"
             placeholder="&#xf27a; message"
             style="font-family: verdana, FontAwesome"
+            required
           ></textarea>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
