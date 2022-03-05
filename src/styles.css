@@ -128,3 +128,30 @@ nav .navbar-nav li a:hover {
 .horizontal-scrollable > .row {
   overflow-x: auto;
 }
+
+.top-image {
+  background: var(--tertiary-color);
+  background: linear-gradient(var(--quaternary-color), var(--tertiary-color));
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 55px;
+  z-index: 100;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.hero-top-image img {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.5;
+  aspect-ratio: 2/0.8;
+  box-shadow: var(--box-shadow);
+}
+
+h2 {
+  font-family: "Old Standard TT", serif;
+}
