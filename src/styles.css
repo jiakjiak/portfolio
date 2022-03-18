@@ -116,3 +116,18 @@ h1 {
   margin-top: -250px;
   color: #fff;
 }
+
+.carousel-item {
+  height: 30rem;
+  background: #777;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.projects {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+}
