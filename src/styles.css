@@ -119,8 +119,9 @@ h1 {
 
 .carousel-item {
   height: 30rem;
-  background: #777;
-  opacity: 0.8;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: #fff;
 }
 

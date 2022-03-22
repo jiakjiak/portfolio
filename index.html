@@ -137,35 +137,63 @@
           </div>
         </div>
       </div>
-      <div id="projectOverview" class="carousel slide" data-bs-ride="carousel">
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
           <li
-            data-bs-target="#projectOverview"
-            data-bs-slide-to="0"
+            data-bs-target="#projectCarousel"
+            data-slide-to="0"
             class="active"
-            aria-current="true"
           ></li>
-          <li
-            data-bs-target="#projectOverview"
-            data-bs-slide-to="1"
-            class="active"
-            aria-current="true"
-          ></li>
-          <li
-            data-bs-target="#projectOverview"
-            data-bs-slide-to="2"
-            class="active"
-            aria-current="true"
-          ></li>
+          <li data-bs-target="#projectCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#projectCarousel" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div
+            class="carousel-item active"
+            style="background-image: url(/src/images/weather-app-js.png)"
+          >
             <div class="container projects">
-              <h3>project title</h3>
-              <p>project one-liner.</p>
+              <h3>project 1</h3>
+              <p>project description.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(/src/images/weather-app-react.png)"
+          >
+            <div class="container projects">
+              <h3>project 2</h3>
+              <p>project description.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(/src/images/dictionary-app-react.png)"
+          >
+            <div class="container projects">
+              <h3>project 3</h3>
+              <p>project description.</p>
             </div>
           </div>
         </div>
+        <a
+          href="#projectCarousel"
+          class="carousel-control-prev"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="sr-only">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          href="#projectCarousel"
+          class="carousel-control-next"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="sr-only">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
 
       <div class="contact" id="contact">
