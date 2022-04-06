@@ -324,5 +324,12 @@
         <span class="sign-off">Built with </span>❤
       </section>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 750);
+      });
+    </script>
   </body>
 </html>

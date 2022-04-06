@@ -121,3 +121,11 @@ section .sign-off {
 .links {
   font-size: 35px;
 }
+
+.bg {
+  background: rgba(255, 255, 255, 0.01);
+  transition: 500ms ease;
+}
+.bg.scrolled {
+  background: #427cb5;
+}
