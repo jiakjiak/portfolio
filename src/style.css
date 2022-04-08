@@ -3,7 +3,7 @@
   --secondary-color: #fff;
   --tertiary-color: #ebdacc;
   --quaternary-color: #dd8470;
-  --quinary-color: #8f542e;
+  --quinary-color: #606e7ac7;
   --senary-color: #b2784a;
   --box-shadow: 0 2px 15px var(--quinary-color);
 }
@@ -132,4 +132,5 @@ section .sign-off {
     rgb(0, 40, 60) 41.6%,
     rgb(0, 143, 213) 93.4%
   );
+  box-shadow: var(--box-shadow);
 }
