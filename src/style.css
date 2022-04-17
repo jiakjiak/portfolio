@@ -1,11 +1,9 @@
 :root {
-  --primary-color: #e4b1a5;
-  --secondary-color: #fff;
-  --tertiary-color: #ebdacc;
-  --quaternary-color: #dd8470;
-  --quinary-color: #606e7ac7;
-  --senary-color: #b2784a;
-  --box-shadow: 0 2px 15px var(--quinary-color);
+  --primary-color: #fff;
+  --secondary-color: rgb(191, 203, 214);
+  --tertiary-color: #606e7ac7;
+  --logo-color: #ebdacc;
+  --box-shadow: 0 2px 15px var(--tertiary-color);
 }
 .logo-outer {
   width: 55px;
@@ -25,7 +23,7 @@
   padding: 25px 0 5px 5px;
   margin: auto 0;
   font-family: "Old Standard TT", serif;
-  color: var(--tertiary-color);
+  color: var(--logo-color);
 }
 
 .logo-outer::before,
@@ -40,33 +38,33 @@
 
 .logo-outer:before {
   right: 0;
-  border-right: 1.5px solid var(--tertiary-color);
-  border-top: 1.5px solid var(--tertiary-color);
+  border-right: 1.5px solid var(--logo-color);
+  border-top: 1.5px solid var(--logo-color);
 }
 
 .logo-outer:after {
   bottom: 0;
-  border-left: 1.5px solid var(--tertiary-color);
-  border-bottom: 1.5px solid var(--tertiary-color);
+  border-left: 1.5px solid var(--logo-color);
+  border-bottom: 1.5px solid var(--logo-color);
 }
 
 .logo-inner:before {
   left: 0;
   top: 0;
-  border-left: 1.5px solid var(--tertiary-color);
-  border-top: 1.5px solid var(--tertiary-color);
+  border-left: 1.5px solid var(--logo-color);
+  border-top: 1.5px solid var(--logo-color);
 }
 
 .logo-inner:after {
   right: 0;
   bottom: 0;
-  border-right: 1.5px solid var(--tertiary-color);
-  border-bottom: 1.5px solid var(--tertiary-color);
+  border-right: 1.5px solid var(--logo-color);
+  border-bottom: 1.5px solid var(--logo-color);
 }
 
 .logo-inner-2:after {
   content: "";
-  background: var(--tertiary-color);
+  background: var(--logo-color);
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -88,8 +86,19 @@
   padding: 0 5px;
 }
 
+.menu li a {
+  text-decoration: none;
+  color: var(--primary-color) !important;
+  transition: all 100ms ease-in-out !important;
+}
+
+.menu li a:hover {
+  color: var(--secondary-color) !important;
+  transition: all 100ms ease-in-out;
+}
+
 h1 {
-  color: #fff;
+  color: var(--primary-color);
   font-family: "Bebas Neue", cursive;
   font-size: 100px;
   position: relative;
@@ -114,7 +123,7 @@ section .sign-off {
 .banner-caption {
   position: relative;
   margin-top: -30px;
-  color: #fff;
+  color: var(--primary-color);
   font-family: "Bebas Neue", cursive;
 }
 
