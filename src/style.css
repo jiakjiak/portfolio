@@ -105,6 +105,15 @@ h1 {
   margin-bottom: 300px;
 }
 
+h2 {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: bold;
+}
 section .sign-off {
   font-family: "Waiting for the Sunrise", cursive;
   font-weight: bolder;
@@ -142,4 +151,22 @@ section .sign-off {
     rgb(0, 143, 213) 93.4%
   );
   box-shadow: var(--box-shadow);
+}
+
+.bio {
+  text-align: justify;
+  line-height: 1.55;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 18px;
+}
+
+.project-heading {
+  margin-left: 340px;
+  position: relative;
+  bottom: -120px;
+  z-index: 1;
+}
+
+#projects {
+  font-family: "Vazirmatn", sans-serif;
 }
