@@ -170,3 +170,21 @@ section .sign-off {
 #projects {
   font-family: "Vazirmatn", sans-serif;
 }
+
+@media (max-width: 576px) {
+  nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+}
