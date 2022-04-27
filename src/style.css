@@ -170,6 +170,7 @@ section .sign-off {
     display: inline-block;
     text-align: center;
   }
+
   h1 {
     font-size: 35px;
     margin-bottom: 150px;
@@ -180,6 +181,11 @@ section .sign-off {
     font-size: 65px;
     display: flex;
     justify-content: center;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin: 10px 0 0 10px;
   }
 
   .banner-caption {
