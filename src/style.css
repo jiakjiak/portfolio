@@ -109,6 +109,8 @@ h2 {
   font-family: "Mrs Saint Delafield", cursive;
   font-size: 80px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 h5 {
@@ -161,8 +163,16 @@ section .sign-off {
   font-size: 18px;
 }
 
-#projects {
-  font-family: "Vazirmatn", sans-serif;
+.project-heading {
+  position: relative;
+  bottom: -100px;
+  z-index: 1;
+}
+
+.dm {
+  position: relative;
+  bottom: -50px;
+  z-index: 1;
 }
 
 @media (max-width: 576px) {
@@ -178,9 +188,13 @@ section .sign-off {
     padding-top: 250px;
   }
   h2 {
-    font-size: 65px;
+    font-size: 75px;
     display: flex;
     justify-content: center;
+  }
+
+  .bio {
+    font-size: 14px;
   }
 
   .logo {
@@ -203,6 +217,11 @@ section .sign-off {
     background-position: center;
   }
 
+  .project-heading,
+  .dm {
+    position: static;
+  }
+
   .twitter {
     display: none;
   }
@@ -219,8 +238,53 @@ section .sign-off {
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
-  nav ul {
+  nav ul li a {
     display: inline-block;
     text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    position: relative;
+    margin-top: -40px;
+  }
+  h2 {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin: 10px 0 0 10px;
+  }
+
+  .banner-caption {
+    text-align: center !important;
+    justify-content: center;
+    margin-right: 0;
+    font-size: 12px;
+  }
+  .hero {
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+      url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .twitter {
+    display: none;
+  }
+
+  .linkedin,
+  .github {
+    padding: 0 10px !important;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
   }
 }
