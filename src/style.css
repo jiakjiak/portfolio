@@ -146,8 +146,9 @@ section .sign-off {
 }
 
 .bg {
-  transition: 500ms ease;
+  transition: 100ms linear;
 }
+
 .bg.scrolled {
   background: linear-gradient(
     114.9deg,
