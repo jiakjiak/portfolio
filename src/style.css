@@ -107,10 +107,11 @@ h1 {
 
 h2 {
   font-family: "Mrs Saint Delafield", cursive;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 400;
   display: flex;
   justify-content: center;
+  padding-top: 35px;
 }
 
 h5 {
@@ -161,18 +162,12 @@ section .sign-off {
   line-height: 1.55;
   font-family: "Vazirmatn", sans-serif;
   font-size: 18px;
+  column-count: 2;
+  column-gap: 50px;
 }
 
-.project-heading {
-  position: relative;
-  bottom: -100px;
-  z-index: 1;
-}
-
-.dm {
-  position: relative;
-  bottom: -50px;
-  z-index: 1;
+.bio p {
+  text-align: justify;
 }
 
 @media (max-width: 576px) {
@@ -193,10 +188,17 @@ section .sign-off {
     justify-content: center;
   }
 
-  .bio {
-    font-size: 14px;
+  .bio-image {
+    width: 100%;
   }
 
+  .bio {
+    text-align: justify;
+    line-height: 1.5;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 14px;
+    column-count: 1;
+  }
   .logo {
     padding-left: 0;
     margin: 10px 0 0 10px;
@@ -217,11 +219,9 @@ section .sign-off {
     background-position: center;
   }
 
-  .project-heading,
   .dm {
-    position: static;
+    text-align: center;
   }
-
   .twitter {
     display: none;
   }
