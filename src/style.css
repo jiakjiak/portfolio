@@ -201,6 +201,11 @@ section .sign-off {
     color: var(--tertiary-color) !important;
   }
 
+  .bg.scrolled {
+    background: none;
+    box-shadow: none;
+  }
+
   .bio-image {
     width: 100%;
   }
@@ -283,6 +288,11 @@ section .sign-off {
   .logo {
     padding-left: 0;
     margin: 10px 0 0 10px;
+  }
+
+  .bg.scrolled {
+    background: none;
+    box-shadow: none;
   }
 
   .banner-caption {
