@@ -30,7 +30,7 @@
 
 
 ## Screenshot
-<!--insert gif-->
+<img src ="./src/images/portfolio.png"/>
 
 
 ## Project Status
