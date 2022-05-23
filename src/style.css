@@ -1,3 +1,8 @@
+/* Theme: The Sky Is The Limit
+Version: 1.1
+*/
+
+/* || Color Palette*/
 :root {
   --primary-color: #fff;
   --secondary-color: rgb(191, 203, 214);
@@ -5,6 +10,8 @@
   --logo-color: #ebdacc;
   --box-shadow: 0 2px 15px var(--tertiary-color);
 }
+
+/* || Logo */
 .logo-outer {
   width: 55px;
   height: 55px;
@@ -77,6 +84,7 @@
   padding-left: 30px;
 }
 
+/* || Navigation */
 .navbar-nav {
   font-size: 20px;
   padding-right: 30px;
@@ -97,6 +105,7 @@
   transition: all 100ms ease-in-out;
 }
 
+/* || General Styles */
 h1 {
   color: var(--primary-color);
   font-family: "Bebas Neue", cursive;
@@ -118,6 +127,7 @@ h2 {
 h5 {
   font-weight: bold;
 }
+
 section .sign-off {
   font-family: "Waiting for the Sunrise", cursive;
   font-weight: bolder;
@@ -172,6 +182,7 @@ section .sign-off {
   text-align: justify;
 }
 
+/* Responsive to small media */
 @media (max-width: 576px) {
   nav ul li a {
     display: inline-block;
@@ -179,14 +190,22 @@ section .sign-off {
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 150px;
     margin-top: 30px;
   }
   h2 {
-    font-size: 75px;
+    font-size: 55px;
     display: flex;
     justify-content: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .mt-5 {
+    margin-top: 0 !important;
   }
 
   .fixed-top {
@@ -256,6 +275,7 @@ section .sign-off {
   }
 }
 
+/* Responsive to medium media */
 @media (min-width: 577px) and (max-width: 991px) {
   nav ul li a {
     display: inline-block;
@@ -271,6 +291,14 @@ section .sign-off {
     font-size: 65px;
     display: flex;
     justify-content: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .mt-5 {
+    margin-top: 0 !important;
   }
 
   .fixed-top {
@@ -331,6 +359,7 @@ section .sign-off {
   }
 }
 
+/* Responsive to large media */
 @media (min-width: 992px) {
   .contact {
     max-width: 600px;
